@@ -1,19 +1,19 @@
 function colorRed() {
-    document.body.style.backgroundColor = "#d20000";
+    document.body.style.backgroundColor = "red";
 }
 
 function colorBlue() {
-    document.body.style.backgroundColor = "rgb(0, 0, 217)";
+    document.body.style.backgroundColor = "blue";
 }
 
 function colorGreen() {
-    document.body.style.backgroundColor = "#38df00";
+    document.body.style.backgroundColor = "greenyellow";
 }
 
 function colorOrange() {
-    document.body.style.backgroundColor = "rgb(255, 166, 0)";
+    document.body.style.backgroundColor = "orange";
 }
 
 function resetColor() {
-    document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "";
 }

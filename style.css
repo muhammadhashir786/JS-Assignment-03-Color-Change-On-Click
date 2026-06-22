@@ -6,16 +6,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s ease;
 }
 
 .container {
-  /* border: 2px solid red; */
-  width: 35%;
+  /* border: 2px solid #f200ff; */
+  border-radius: 20px;
+  width: 50%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: #f4f4f4;
+  background-color: #feebff;
 }
 
 h1,
@@ -24,9 +28,19 @@ p {
 }
 
 p {
+  color: black;
+  color: #686868;
+}
+
+h1 {
+  color: #f200ff;
+}
+
+p {
   width: 100%;
-  width: 80%;
+  width: 60%;
   text-align: center;
+  margin: 0px 0px;
   /* border: 2px solid black; */
 }
 
@@ -36,10 +50,6 @@ button {
   padding: 12px 30px;
   border-radius: 5px;
   border: none;
-}
-
-button:hover {
-  background-color: #3e3e3e;
 }
 
 .colors {
@@ -92,6 +102,7 @@ button:hover {
 .btn-5 {
   width: 200px;
   text-align: center;
+  margin-top: 2px;
 }
 
 .btn-1,
@@ -99,8 +110,8 @@ button:hover {
 .btn-3,
 .btn-4,
 .btn-5 {
-    background-color: #91009c;
-    background-color: #000000;
+  background-color: #91009c;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -114,6 +125,14 @@ button:hover {
   transition-duration: 0.5s;
 }
 
+.btn-5 {
+  background-color: #f200ff;
+}
+
+.btn-5:hover {
+  background-color: #cb00d6;
+}
+
 /* Individual Buttons */
 
 .btn-1:after {
@@ -121,7 +140,7 @@ button:hover {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #d20000;
+  background-color: red;
   border-radius: 50%;
   z-index: -1;
   opacity: 0;
@@ -133,7 +152,7 @@ button:hover {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #0000d9;
+  background-color: blue;
   border-radius: 50%;
   z-index: -1;
   opacity: 0;
@@ -145,7 +164,7 @@ button:hover {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #38df00;
+  background-color: greenyellow;
   border-radius: 50%;
   z-index: -1;
   opacity: 0;
@@ -157,7 +176,7 @@ button:hover {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #ffa600;
+  background-color: orange;
   border-radius: 50%;
   z-index: -1;
   opacity: 0;
@@ -178,40 +197,41 @@ button:hover {
 
 .btn-1:hover {
   box-shadow:
-    0px 0px 5px #d20000,
-    0px 0px 10px #d20000,
-    0px 0px 30px #d20000;
+    0px 0px 5px red,
+    0px 0px 10px red,
+    0px 0px 30px red;
   transition-duration: 0.7s;
 }
 
 .btn-2:hover {
   box-shadow:
-    0px 0px 5px #0000d9,
-    0px 0px 10px #0000d9,
-    0px 0px 30px #0000d9;
+    0px 0px 5px blue,
+    0px 0px 10px blue,
+    0px 0px 30px blue;
   transition-duration: 0.7s;
 }
 
 .btn-3:hover {
   box-shadow:
-    0px 0px 5px #38df00,
-    0px 0px 10px #38df00,
-    0px 0px 30px #38df00;
+    0px 0px 5px greenyellow,
+    0px 0px 10px greenyellow,
+    0px 0px 30px greenyellow;
   transition-duration: 0.7s;
 }
 
 .btn-4:hover {
   box-shadow:
-    0px 0px 5px #ffa600,
-    0px 0px 10px #ffa600,
-    0px 0px 30px #ffa600;
+    0px 0px 5px orange,
+    0px 0px 10px orange,
+    0px 0px 30px orange;
   transition-duration: 0.7s;
 }
 
-.btn-5:hover {
+/* .btn-5:hover {
   box-shadow:
-    0px 0px 5px white,
-    0px 0px 10px white,
-    0px 0px 30px white;
+    0px 0px 5px #ff44d3,
+    0px 0px 10px #ff44d3,
+    0px 0px 30px #ff44d3;
+  0px 0px 30px #ff44b7;
   transition-duration: 0.7s;
-}
+} */
