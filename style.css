@@ -20,6 +20,7 @@ body {
   align-items: center;
   background-color: #f4f4f4;
   background-color: #feebff;
+  box-shadow: 2px 2px 12px rgb(188, 188, 188);
 }
 
 h1,
